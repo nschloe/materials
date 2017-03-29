@@ -51,7 +51,7 @@ def density(T):
         * numpy.exp(1.05e-12/3.0*T**3 - 3.717e-09/2.0*T**2 - 2.314e-06*T)
 
 
-def thermal_conducivity(T):
+def thermal_conductivity(T):
     ''':cite:`NMH97`.
     '''
     return 61.1e3 / (T - 115.0)
