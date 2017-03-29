@@ -29,7 +29,7 @@ setup(
     author_email=about['__author_email__'],
     packages=find_packages(),
     description=(
-       'Voronoi regions and more for triangular and tetrehedral meshes'
+       'Density, magnetic permeability etc. for a range of materials.'
        ),
     long_description=read('README.rst'),
     url='https://github.com/nschloe/materials',
@@ -38,6 +38,7 @@ setup(
     platforms='any',
     install_requires=[
         'numpy',
+        'pipdated'
         ],
     classifiers=[
         about['__status__'],
