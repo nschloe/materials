@@ -9,17 +9,8 @@ python:
 addons:
   apt:
     packages:
-      - pandoc
-      #
-      - python-h5py
-      - python-matplotlib
       - python-numpy
-      - python-scipy
-      #
-      - python3-h5py
-      - python3-matplotlib
       - python3-numpy
-      - python3-scipy
 
 before_install:
   - pip install pytest pytest-cov
