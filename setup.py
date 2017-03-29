@@ -37,6 +37,7 @@ setup(
     license=about['__license__'],
     platforms='any',
     install_requires=[
+        'numpy',
         ],
     classifiers=[
         about['__status__'],
