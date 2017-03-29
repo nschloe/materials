@@ -11,11 +11,10 @@
 # [6]
 # https://en.wikipedia.org/wiki/Permeability_(electromagnetism)#Values_for_some_common_materials
 #
-from numpy import pi
+from .helpers import mu0
 
 # [6]
-_mu0 = pi * 4.0e-7
-magnetic_permeability = 1.00000037 * _mu0
+magnetic_permeability = 1.00000037 * mu0
 electrical_conductivity = 0.0
 
 
@@ -39,5 +38,3 @@ def thermal_conductivity(T):
         - 4.8574e-8 * T**2 \
         + 1.0184e-4 * T \
         - 0.00039333
-
-

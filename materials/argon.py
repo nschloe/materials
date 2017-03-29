@@ -1,8 +1,8 @@
-from numpy import pi
+# -*- coding: utf-8 -*-
+#
+from .helpers import mu0
 
-# [6]
-_mu0 = pi * 4.0e-7
-magnetic_permeability = _mu0
+magnetic_permeability = mu0
 electrical_conductivity = 0.0
 
 
