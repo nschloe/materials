@@ -42,6 +42,6 @@ def specific_heat_capacity(T):
         )
 
 
-def thermal_conducitivity(T):
+def thermal_conductivity(T):
     # [5]
     return 0.6065 * (-1.48445 + 4.12292*(T/298.15) - 1.63866*(T/298.15)**2)
