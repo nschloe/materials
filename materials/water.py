@@ -31,6 +31,10 @@ def dynamic_viscosity(T):
     return 2.414e-5 * 10**(247.8 / (T - 140))
 
 
+def kinematic_viscosity(T):
+    return dynamic_viscosity(T) / density(T)
+
+
 def specific_heat_capacity(T):
     # Least-squares fit from [6].
     return (
