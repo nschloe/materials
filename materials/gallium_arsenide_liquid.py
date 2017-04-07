@@ -61,3 +61,7 @@ def dynamic_viscosity(T):
     '''Data from :cite:`Jordan85`, :cite:`KH87`.
     '''
     return max(1.4e-3, 0.1 * 10**(-8.049 + 9814.0/T))
+
+
+def kinematic_viscosity(T):
+    return dynamic_viscosity(T) / density(T)

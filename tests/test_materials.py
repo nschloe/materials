@@ -24,6 +24,7 @@ def test_copper():
 def test_gallium_arsenide_liquid():
     materials.gallium_arsenide_liquid.density(273.0)
     materials.gallium_arsenide_liquid.dynamic_viscosity(273.0)
+    materials.gallium_arsenide_liquid.kinematic_viscosity(273.0)
     return
 
 
@@ -52,6 +53,7 @@ def test_silicon_carbide():
 def test_water():
     materials.water.density(273.0)
     materials.water.dynamic_viscosity(273.0)
+    materials.water.kinematic_viscosity(273.0)
     materials.water.specific_heat_capacity(273.0)
     materials.water.thermal_conductivity(273.0)
     return
