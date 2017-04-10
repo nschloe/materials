@@ -72,6 +72,7 @@ from . import copper
 from . import gallium_arsenide_liquid
 from . import gallium_arsenide_solid
 from . import graphite
+from . import mercury
 from . import silicon_carbide
 from . import silver
 from . import water
