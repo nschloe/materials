@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-from .helpers import mu0
 import numpy
+
+from .helpers import mu0
 
 # Silicon carbide.
 # [1] https://en.wikipedia.org/wiki/Silicon_carbide

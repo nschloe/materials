@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-from .helpers import mu0
 import numpy
+
+from .helpers import mu0
 
 # [1] https://en.wikipedia.org/wiki/Graphite
 # [2] https://en.wikipedia.org/wiki/Carbon

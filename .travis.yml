@@ -13,12 +13,14 @@ addons:
       - python3-numpy
 
 before_install:
-  - pip install pytest pytest-cov
+  - pip install pytest pytest-cov pylint
 
 install:
   - pip install .
 
 script:
+  - pylint materials/
+  - pylint tests/*.py
   - cd tests && pytest --cov materials
 
 after_success:

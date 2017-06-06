@@ -9,8 +9,9 @@
 # [5]
 # https://en.wikipedia.org/wiki/Permeability_(electromagnetism)#Values_for_some_common_materials
 #
-from .helpers import mu0
 import numpy
+
+from .helpers import mu0
 
 # [5]
 magnetic_permeability = 0.999994*mu0
@@ -20,19 +21,19 @@ def electrical_conductivity(T):
     '''The least-squares fit from :cite:`Mat79` is
 
     .. math::
-        \sigma(T) = \\frac{1.0}{- 0.7477\\times 10^{-8}
-                                + 0.007792\\times 10^{-8} T
-                                }.
+        \\sigma(T) = \\frac{1.0}{- 0.7477\\times 10^{-8}
+                                 + 0.007792\\times 10^{-8} T
+                                 }.
 
     In better accordance with [1] (for :math:`T=293`) is the expression
     from [4],
 
     .. math::
-        \sigma(T) = \\frac{1.0}{-3.033\\times 10^{-9}
-                                + 68.85\\times 10^{-12} T
-                                - 6.72\\times 10^{-15} T^2
-                                + 8.56\\times 10^{-18} T^3
-                                }.
+        \\sigma(T) = \\frac{1.0}{-3.033\\times 10^{-9}
+                                 + 68.85\\times 10^{-12} T
+                                 - 6.72\\times 10^{-15} T^2
+                                 + 8.56\\times 10^{-18} T^3
+                                 }.
     '''
     return 1.0 / (-3.033e-9 + 68.85e-12*T - 6.72e-15*T**2 + 8.56e-18*T**3)
 
