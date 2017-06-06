@@ -12,9 +12,9 @@ magnetic_permeability = mu0 * (1.0 - 0.85e-10)
 '''From figure 1 in :cite:`MRS:GaAs`, we take
 
 .. math::
-    \chi_v = -0.85\\times 10^{-10} \\frac{m^3}{kg},
+    \\chi_v = -0.85\\times 10^{-10} \\frac{m^3}{kg},
 
-so with :math:`\mu = \mu_0 (1+\chi_v)`
+so with :math:`\\mu = \\mu_0 (1+\\chi_v)`
 (https://en.wikipedia.org/wiki/Magnetic_susceptibility#Definition_of_volume_susceptibility),
 we get the value.
 '''
@@ -38,8 +38,8 @@ means of relating it to the conductivity at melting point for the solid
 state, i.e.,
 
 .. math::
-    K_s &= 10^2 \\times 10^{2.318 - 1.09  \log_{10}1511.0},\\\\
-    K_l &= 2.5 K_s \\approx 17.8 \\frac{W}{m\cdot K}.
+    K_s &= 10^2 \\times 10^{2.318 - 1.09  \\log_{10}1511.0},\\\\
+    K_l &= 2.5 K_s \\approx 17.8 \\frac{W}{m\\cdot K}.
 
 :cite:`NH92` also quotes this data (fig. 6) and suggests that the
 conductivity is nearly independent of the temperature when liquid. The same

@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-from .helpers import mu0
 import numpy
+
+from .helpers import mu0
 
 
 melting_point = 1511.0
