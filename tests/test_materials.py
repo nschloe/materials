@@ -44,9 +44,9 @@ def test_graphite():
 
 
 def test_mercury():
-    materials.water.density(273.0)
-    materials.water.dynamic_viscosity(273.0)
-    materials.water.kinematic_viscosity(273.0)
+    materials.mercury.density(273.0)
+    materials.mercury.dynamic_viscosity(273.0)
+    materials.mercury.kinematic_viscosity(273.0)
     return
 
 
