@@ -20,6 +20,7 @@ install:
 
 script:
   - pylint materials/
+  - pylint tests/*.py
   - cd tests && pytest --cov materials
 
 after_success:
