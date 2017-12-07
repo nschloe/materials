@@ -2,8 +2,6 @@
 #
 from __future__ import print_function
 
-import pipdated
-
 # General sources:
 #
 # Magnetic permeability.
