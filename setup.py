@@ -38,7 +38,7 @@ setup(
     platforms='any',
     install_requires=[
         'numpy',
-        'pipdated'
+        'pipdate'
         ],
     classifiers=[
         about['__status__'],
