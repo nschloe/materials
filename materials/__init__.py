@@ -2,8 +2,6 @@
 #
 from __future__ import print_function
 
-import pipdated
-
 # General sources:
 #
 # Magnetic permeability.
@@ -86,5 +84,10 @@ from .__about__ import (
     __author_email__
     )
 
-if pipdated.needs_checking(__name__):
-    print(pipdated.check(__name__, __version__), end='')
+try:
+    import pipdate
+except ImportError:
+    pass
+else:
+    if pipdate.needs_checking(__name__):
+        print(pipdate.check(__name__, __version__))
